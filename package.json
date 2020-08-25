@@ -1,0 +1,41 @@
+{
+  "name": "SCS_Admin",
+  "version": "1.0.0",
+  "description": "test drupal",
+  "scripts": {
+    "setup": "npm install",
+    "dev": "gulp dev",
+    "build": "gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esafety-commissioner/Control_System_edit"
+  },
+  "author": "OeSC",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.5.1",
+    "bootstrap": "^4.1.3",
+    "browser-sync": "^2.24.4",
+    "del": "^3.0.0",
+    "glob": "^7.1.3",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-path": "^4.0.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-string-replace": "^1.1.2",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5",
+    "path": "^0.12.7"
+  }
+}
