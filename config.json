@@ -1,0 +1,49 @@
+{
+  "name": "SCS_Admin",
+  "description": "SCS_Admin theme.",
+  "css": {
+    "file": "style.scss",
+    "src": [
+      "./assets/scss/**/*.scss"
+    ],
+    "dest": "css"
+  },
+  "js": {
+    "file": "main.js",
+    "src": [
+      "./assets/js/**/*.js"
+    ],
+    "dest": "js"
+  },
+  "images": {
+    "src": [
+      "./assets/images/**/*"
+    ],
+    "dest": "images"
+  },
+  "sprite": {
+    "src": [
+      "./assets/icons/**/*.svg"
+    ],
+    "srcfile": "./assets/images/sprite.scss",
+    "destfile": "./assets/scss/base/_view-sprite.scss",
+    "dest": "./assets/images"
+  },
+  "externaljs": {
+    "src": [
+      "./assets/external/js/**/*.js"
+    ],
+    "min": "js/external/**/*.js",
+    "minexclude": "!js/external/**/*.min.js",
+    "dest": "js/external"
+  },
+  "externalcss": {
+    "src": [
+      "./assets/external/css/**/*"
+    ],
+    "dest": "css/external"
+  },
+  "templates": {
+    "src": "./templates/**/*.twig"
+  }
+}

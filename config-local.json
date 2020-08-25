@@ -1,0 +1,6 @@
+{
+  "name": "assets",
+  "description": "assets local config file",
+  "browserSyncProxy" : "http://127.0.0.1",
+  "browserSyncPort" : 3000
+}
